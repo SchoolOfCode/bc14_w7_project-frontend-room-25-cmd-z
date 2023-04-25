@@ -8,7 +8,7 @@ import React from 'react';
 function HomePage() {
   return (
     <div>
-      <img src="../image/pexels-markus-spiske-2004161.jpg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/pexels-markus-spiske-2004161.jpg'} alt="" />
       <h1>JavaScript</h1>
       <p>JavaScript is the world's most popular programming language.<p>
 

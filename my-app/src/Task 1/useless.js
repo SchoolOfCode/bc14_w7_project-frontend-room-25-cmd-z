@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -12,10 +11,9 @@ ReactDOM.render(<App />, document.getElementById('root'));  //this is the root e
 function App() {
   return (
     <div className="App">
-    {/* import the question component here */}
-    <QuestionComponent /> {/*this is the question component*/}
-     <HomeButton />
-     <H1Test />
+    <QuestionComponent />
+    <HomeButton />
+    <H1Test />
     </div>
 )
 }

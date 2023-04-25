@@ -1,6 +1,6 @@
 // create a button that will take the user to the home page
 import React from 'react';
-//import './index.css';
+import './index.css';
 
 function HomeButton () {
     return (

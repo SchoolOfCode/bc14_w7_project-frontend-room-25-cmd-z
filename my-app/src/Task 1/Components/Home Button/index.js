@@ -2,7 +2,7 @@
 import React from 'react';
 import './index.css';
 
-const HomeButton = () => {
+function HomeButton () {
     return (
         <div className="home-button">
             <button className="home-button">Home</button>

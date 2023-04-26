@@ -25,4 +25,4 @@ function App() {
 export default App;
 
 
-ReactDOM.render(<App />, document.getElementById('root'));  //this is the root element in the index.html file
+// ReactDOM.render(<App />, document.getElementById('root'));  //this is the root element in the index.html file

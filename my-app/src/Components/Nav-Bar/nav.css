@@ -1,0 +1,57 @@
+.nav-bar {
+    position: fixed;
+    /* Set position to fixed so it stays at the top of the page */
+    top: 0;
+    /* Position at the top of the page */
+    left: 0;
+    /* Position at the left of the page */
+    width: 100%;
+    /* Take up the full width of the page */
+    background-color: #333;
+    /* Set background color to dark grey */
+    padding: 10px;
+    /* Add padding to the nav bar */
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    /* Remove bullet points from list items */
+    margin: 0;
+    /* Remove margin from the list */
+    padding: 0;
+    /* Remove padding from the list */
+    text-align: left;
+    /* Align the list items to the left */
+    display: flex;
+    /* Use flexbox layout */
+    align-items: center;
+    /* Align items to center */
+}
+
+.nav-bar li {
+    display: inline-block;
+    /* Display list items inline */
+    margin-right: 20px;
+    /* Add margin to the right of each item */
+}
+
+.nav-bar li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+
+.nav-bar a {
+    color: #fff;
+    /* Set text color to white */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 18px;
+    /* Set font size */
+    padding: 10px;
+    /* Add padding to links */
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px solid #fff;
+    /* Add bottom border to links on hover */
+}

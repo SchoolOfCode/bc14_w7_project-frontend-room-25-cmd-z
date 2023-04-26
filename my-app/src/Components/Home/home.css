@@ -7,7 +7,11 @@
   height: 100vh;
   /* Set the container height to be 100% of the viewport height */
   background-color: #f1f1f1;
-  
+
+}
+
+img {
+  margin-top: 25px;
 }
 
 /* This CSS rule sets styles for an image with the class name "logo" */

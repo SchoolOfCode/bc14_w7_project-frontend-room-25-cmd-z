@@ -17,11 +17,11 @@ function NavBar() {
         </li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#learn-more">Learn More</a></li>
-        <li>
-          <form>
+        <li className='search'>
+          {/* <form >
             <input type="text" placeholder="Search..."/>
             <button type="submit">Go</button>
-          </form>
+          </form> */}
         </li>
       </ul>
     </nav>

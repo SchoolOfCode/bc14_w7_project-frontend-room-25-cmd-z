@@ -1,0 +1,79 @@
+/* This CSS rule sets styles for a container element that will hold the page content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* Set the container height to be 100% of the viewport height */
+  background-color: #f1f1f1;
+
+}
+
+img {
+  margin-top: 25px;
+}
+
+/* This CSS rule sets styles for an image with the class name "logo" */
+.logo {
+  width: 50%;
+  /* Set the width of the image to be 50% of its parent element */
+  height: auto;
+  /* Set the height of the image to be proportional to its width */
+  margin-bottom: 50px;
+  /* Add some space below the image */
+}
+
+/* This CSS rule sets styles for the page content */
+.content {
+  text-align: center;
+  /* Center the text within the content area */
+}
+
+/* This CSS rule sets styles for the main heading */
+h1 {
+  font-size: 48px;
+
+  font-weight: bold;
+
+  margin-bottom: 20px;
+  /* Add some space below the heading */
+}
+
+/* This CSS rule sets styles for paragraphs */
+p {
+  font-size: 24px;
+
+  line-height: 1;
+  /* Set the line height to be 1 (no extra spacing between lines) */
+  margin-bottom: 20px;
+  /* Add some space below each paragraph */
+  align-self: center;
+  /* Center the paragraphs horizontally within their parent element */
+}
+
+/* This CSS rule sets styles for a button */
+button {
+  background-color: #4CAF50;
+
+  color: white;
+ 
+  font-size: 24px;
+
+  padding: 10px 20px;
+
+  border: none;
+  
+  border-radius: 5px;
+ 
+  cursor: pointer;
+
+}
+
+/* This CSS rule sets styles for the button when the user hovers over it */
+button:hover {
+  opacity: 0.6;
+  /* Lower the opacity of the button */
+  cursor: pointer;
+  /* Change the cursor to a pointer */
+}

@@ -18,10 +18,10 @@ function NavBar() {
         <li><a href="#about">About Us</a></li>
         <li><a href="#learn-more">Learn More</a></li>
         <li className='search'>
-          {/* <form >
+          {/* { <form >
             <input type="text" placeholder="Search..."/>
             <button type="submit">Go</button>
-          </form> */}
+          </form> } */}
         </li>
       </ul>
     </nav>

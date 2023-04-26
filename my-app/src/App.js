@@ -1,8 +1,9 @@
 import React from 'react';
 //import Home from './Components/Home';
-import HomePage from './Components/Home/home';
-import NavBar from './Components/Nav-Bar/Nav';
-import ContactPage from './Components/contactPage/contactPage';
+import HomePage from './homePage/Components/Home/home';
+import NavBar from './homePage/Components/Nav-Bar/Nav';
+import ContactPage from './homePage/Components/Button/contactPage/contactPage';
+
 
 function App() {
   return (

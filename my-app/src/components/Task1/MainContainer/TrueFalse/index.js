@@ -1,6 +1,7 @@
 import React from 'react';
 import { FormControl, FormControlLabel, RadioGroup, Radio } from "@mui/material";
 import { Link } from 'react-router-dom';
+import './styles.css';
 
 function TrueFalseQuestion(props) {
     const [value, setValue] = React.useState(''); // this is the state of the radio button
@@ -22,7 +23,7 @@ function TrueFalseQuestion(props) {
     };
 
     return (
-      <div>
+      <div className="FormControlStyles">
       <FormControl component="fieldset"> 
         <RadioGroup aria-label="truefalse" name="truefalse" value={value} onChange={handleChange}> {/* this is the radio group that will contain the radio buttons */}
           <FormControlLabel value="true" control={<Radio />} label="True" /> {/* this is the true radio button */}

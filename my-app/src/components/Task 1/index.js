@@ -12,15 +12,19 @@ import TrueFalseQuestion from './Task 1/Components/Main Container/TrueFalse/True
 
 
 
-function App() {
+function Task1() {
   return (
     <div className="container">
-  
+    <HomeButton />
+    <TitleComponent />
+    <QuestionComponent />
+    <TrueFalseQuestion />
+    <br></br>
     </div> 
 )
 }
 
-export default App;
+export default Task1;
 
 
 ReactDOM.render(<App />, document.getElementById('root'));  //this is the root element in the index.html file

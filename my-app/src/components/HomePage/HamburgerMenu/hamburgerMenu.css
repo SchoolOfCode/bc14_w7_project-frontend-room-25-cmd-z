@@ -1,0 +1,17 @@
+
+.hamburger {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger-icon {
+    display: block;
+    width: 32px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+
+.bm-burger-bars {
+    background-color: black;
+}

@@ -37,16 +37,43 @@
   }
 }
 
-.container {
+
+
+.QuestionComponent {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  justify-content: center;
+  height: 100vh;
   padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
 }
+
+.QuestionComponent h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.QuestionComponent h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.QuestionComponent p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.QuestionComponent div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.QuestionComponent h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+

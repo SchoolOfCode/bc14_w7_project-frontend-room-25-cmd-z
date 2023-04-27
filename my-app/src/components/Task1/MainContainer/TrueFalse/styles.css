@@ -1,0 +1,27 @@
+/* This styles the radio buttons to be displayed on the left */
+.MuiFormControlLabel-root {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  /* This adds some space between the submit and next buttons */
+  button + button {
+    margin-left: 10px;
+  }
+  
+  .FormControlStyles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 600px; /* set a maximum width to prevent the card from getting too wide */
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+  }
+  

@@ -16,7 +16,7 @@ function MultipleChoiceQuestion(props) {
       
         alert('Correct! You smashed the first TEST!'); // this will log 'Correct!' to the console if the value of the radio button is equal to the correct response
       } else {
-        alert('Incorrect! Rome wasn't built in a day. Have a read through the material and try again!'); // this will log 'Incorrect!' to the console if the value of the radio button is not equal to the correct response
+        alert("Incorrect! Rome wasn't built in a day. Have a read through the material and try again!"); // this will log 'Incorrect!' to the console if the value of the radio button is not equal to the correct response
       }
     };
 

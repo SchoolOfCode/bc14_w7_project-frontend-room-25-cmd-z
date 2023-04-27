@@ -1,12 +1,11 @@
-import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomeButton from './Task 1/Components/Home Button';
-import QuestionComponent from './Task 1/Components/Main Container/Question Container/Question Component/index.js';
+import HomeButton from './HomeButton/index';
+import QuestionComponent from './MainContainer/QuestionContainer/QuestionComponent/index';
 //import SubmitButton from './Task 1/Components/Main Container/Question Container/Submit Button';
-import TitleComponent from './Task 1/Components/Main Container/Title Component';
+import TitleComponent from './MainContainer/TitleComponent/index';
 // import TrueFalseButton from './Task 1/Components/Main Container/Question Container/truefalse Button';
-import TrueFalseQuestion from './Task 1/Components/Main Container/TrueFalse/TrueFalse.js';
+import TrueFalseQuestion from './MainContainer/TrueFalse/index';
 
 
 
@@ -27,4 +26,4 @@ function Task1() {
 export default Task1;
 
 
-ReactDOM.render(<App />, document.getElementById('root'));  //this is the root element in the index.html file
+//ReactDOM.render(<App />, document.getElementById('root'));  //this is the root element in the index.html file

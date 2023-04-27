@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormControl, FormControlLabel, RadioGroup, Radio } from "@mui/material";
+import { Link } from 'react-router-dom';
 
 function TrueFalseQuestion(props) {
     const [value, setValue] = React.useState(''); // this is the state of the radio button
@@ -28,7 +29,11 @@ function TrueFalseQuestion(props) {
           <FormControlLabel value="false" control={<Radio />} label="False" /> {/* this is the false radio button */}
         </RadioGroup>
       </FormControl>
+
       <button onClick= {handleSubmit}>Submit</button>
+      <Link to="/Task2">
+       <button>Next</button>
+      </Link>
       </div>
     );
   }

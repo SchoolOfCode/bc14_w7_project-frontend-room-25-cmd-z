@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div className='container'>
 
-    <h2>JavaScript For Beginers</h2>
+    <h2>JavaScript For Beginners</h2>
 
      <img src={process.env.PUBLIC_URL + '/pexels-markus-spiske-2004161.jpg'} alt="" style={{ width: "400px", height: "auto" }}/>
      <br></br>

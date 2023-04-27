@@ -1,6 +1,6 @@
 // we need a home button (logo) at the top of the page//
  // we need a container which has an image, paragraph with small text, a button that takes us to a next and back page//
-
+import { Link } from "react-router-dom";
 import React from 'react'; 
 import "./home.css"; // linked to css//
 
@@ -10,10 +10,13 @@ function HomePage() {
     <div className='container'>
 
     <h2>JavaScript For Beginers</h2>
+
      <img src={process.env.PUBLIC_URL + '/pexels-markus-spiske-2004161.jpg'} alt="" style={{ width: "400px", height: "auto" }}/>
      <br></br>
-     <button>Start Learning JS now</button>
-      <p>/ => + - “”</p>
+    <Link to="/Task1">
+    <button>Start Learning JS now</button>
+    </Link>
+      <p>/ = + - “”</p>
      <p>JavaScript is the world's most popular programming language.</p>
 
 <p>This tutorial will teach you JavaScript from basic to advanced.</p>

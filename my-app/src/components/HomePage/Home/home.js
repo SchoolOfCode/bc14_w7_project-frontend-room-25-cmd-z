@@ -10,12 +10,12 @@ function HomePage() {
     <div className='container'>
 
     <h2>JavaScript For Beginners</h2>
-
      <img src={process.env.PUBLIC_URL + '/pexels-markus-spiske-2004161.jpg'} alt="" style={{ width: "400px", height: "auto" }}/>
      <br></br>
-    <Link to="/Task1">
-    <button>Start Learning JS now</button>
-    </Link>
+     
+     <Link to="Task1">
+     <button>Start Learning JS now</button>
+     </Link>
       <p>/ = + - “”</p>
      <p>JavaScript is the world's most popular programming language.</p>
 

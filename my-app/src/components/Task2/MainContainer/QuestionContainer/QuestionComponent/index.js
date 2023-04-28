@@ -1,11 +1,12 @@
 import React from "react";
+import "../../../../../App.css";
 
 
 function QuestionComponent () {
     return (
-        <div>
-            <h1>Introduction to Variables</h1>
-            <h4>The Assignment Operator</h4>
+        <div className="QuestionComponent">
+            <h1>TASK #2</h1>
+            <h4> Introduction to Variables</h4>
             <p>In JavaScript, we call the = symbol the "assignment operator." The assignment operator is used to assign a value to a variable.
 
             For example, if we have a variable named "x" and we want to assign the value of 10 to it, we would use the following code:</p>

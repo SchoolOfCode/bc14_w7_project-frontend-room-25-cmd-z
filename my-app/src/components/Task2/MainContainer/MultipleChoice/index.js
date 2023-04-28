@@ -1,6 +1,7 @@
 import React from 'react';
 import { FormControl, FormControlLabel, RadioGroup, Radio } from '@mui/material';
 import { Link } from 'react-router-dom';
+import "../../../../App.css";
 
 function MultipleChoiceQuestion(props) {
     const [value, setValue] = React.useState(''); // this is the state of the radio button

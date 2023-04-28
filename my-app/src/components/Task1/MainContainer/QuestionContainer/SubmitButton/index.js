@@ -1,6 +1,6 @@
 // create a submit button component
 import React from 'react';
-import './index.css';
+import '../../../../App.css';
 
 function SubmitButton () {
     const handleSubmit = (value, correctResponse) => {

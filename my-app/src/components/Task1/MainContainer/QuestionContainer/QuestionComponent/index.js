@@ -5,9 +5,17 @@ import "../../../../../App.css";
 function QuestionComponent () {
     return (
         <div className="QuestionComponent">
-            <h1>Question Component</h1>
-            <h4> Intro to Variables</h4>
-            <p>JavaScript, a "var" is a keyword used to declare a variable, which is a container for storing data. When you declare a variable using the "var" keyword, you are essentially creating a named placeholder in memory that can hold a value.
+            <h1>TASK #1</h1>
+            <h4> Introduction to Variables</h4>
+            <img 
+            src="./Images/SoCPlanet.png" 
+            alt="SoC Planet" 
+            className="right-image" 
+/>
+
+
+            <h4 class="underline">var / Variable</h4>
+            <p>🔭 In JavaScript, a "var" is a keyword used to declare a variable, which is a container for storing data. When you declare a variable using the "var" keyword, you are essentially creating a named placeholder in memory that can hold a value.
             The basic syntax for declaring a variable using the "var" keyword is as follows:
             var variableName;</p>
             <br></br>
@@ -17,7 +25,8 @@ function QuestionComponent () {
             <br></br>
             <p>Naming variables in JavaScript is an important part of writing clean, readable code. By following these principles, you can create variable names that are meaningful, clear, and easy to work with.</p>
             <div>
-            <h5>True/False Statement:</h5>
+            <h5>⚡️True ⚡️False</h5>
+            <h5>⚡️ Read carefully</h5>
             <p> When naming variables in JavaScript, it’s recommended to use reserved keywords as variable names. </p>
             </div>
         </div>

@@ -13,7 +13,7 @@ function QuestionComponent () {
             className="right-image" 
             />
 
-            <h4 class="underline">Assignment opperator 🟰</h4>
+            <h4 class="underline">Assignment operator 🟰</h4>
             <p>In JavaScript, we call the = symbol the "assignment operator." The assignment operator is used to assign a value to a variable.
 
             For example, if we have a variable named "x" and we want to assign the value of 10 to it, we would use the following code:</p>

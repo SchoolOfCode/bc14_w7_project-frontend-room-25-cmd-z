@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HomeButton from './MainContainer/HomeButton/index';
 import QuestionComponent from './MainContainer/QuestionContainer/QuestionComponent/index';
-import TitleComponent from './MainContainer/TitleComponent/index';
+// import TitleComponent from './MainContainer/TitleComponent/index';
 import MultipleChoiceQuestion from './MainContainer/MultipleChoice/index';
 
 
@@ -13,7 +13,7 @@ function Task2() {
   return (
     <div className="container">
     <HomeButton />
-    <TitleComponent />
+    {/* <TitleComponent /> */}
     <QuestionComponent />
     <MultipleChoiceQuestion />
     <br></br>

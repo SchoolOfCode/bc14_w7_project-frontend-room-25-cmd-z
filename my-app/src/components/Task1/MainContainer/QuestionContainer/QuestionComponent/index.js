@@ -11,7 +11,7 @@ function QuestionComponent () {
             src="./Images/SoCPlanet.png" 
             alt="SoC Planet" 
             className="right-image" 
-/>
+            />
 
 
             <h4 class="underline">var / Variable</h4>

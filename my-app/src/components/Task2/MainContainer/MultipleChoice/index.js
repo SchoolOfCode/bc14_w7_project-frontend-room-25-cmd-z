@@ -23,7 +23,7 @@ function MultipleChoiceQuestion(props) {
     };
 
     return (
-      <div>
+      <div className="FormControlStyles button-container">
       <FormControl component="fieldset"> 
         <RadioGroup aria-label="truefalse" name="truefalse" value={value} onChange={handleChange}> {/* this is the radio group that will contain the radio buttons */}
           <FormControlLabel value="false1" control={<Radio />} label="Equals sign" /> {/* this is the true radio button */}
